@@ -1,0 +1,30 @@
+.contact-hero {
+  background: #1e40af;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.contact-section {
+  padding: 80px 20px;
+}
+
+.contact-form {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.contact-form button {
+  border: none;
+  cursor: pointer;
+}
