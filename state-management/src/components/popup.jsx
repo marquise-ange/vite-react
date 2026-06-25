@@ -1,8 +1,7 @@
-import './popup.css'
-
-const popup = ({isOpen,onClose,children}) => {
-
-    if(!isOpen)return null;
+import './Popup.css'
+const Popup = ({isOpen, onClose, children}) => {
+ 
+    if(!isOpen) return null;
 
     return (
         <div className="popup-overlay">
@@ -14,9 +13,10 @@ const popup = ({isOpen,onClose,children}) => {
                     {children}
                 </div>
             </div>
-                </div>
+        </div>
     )
+
 
 }
 
-export default popup
+export default Popup
