@@ -49,7 +49,7 @@ function App() {
       </button>
      
 
-     <div className="App" style={{padding: '50px', textAlign: "center" }}>
+     <div className="App" style={{padding: '50px', tesxtAlign: "center" }}>
       <h1>
         React Popup Example
       </h1>
