@@ -29,7 +29,7 @@ export default function Login() {
 
             alert("Login Successful");
 
-            navigate("/");
+            navigate("/home");
 
         } else {
 
@@ -72,7 +72,14 @@ export default function Login() {
                         Login
                     </button>
 
+                    <p>
+                        Don't have an account?
 
+                        <a href="/register">
+                            Register
+                        </a>
+
+                    </p>
                 </form>
 
 
