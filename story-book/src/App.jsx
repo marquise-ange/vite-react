@@ -1,14 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-
 import Home from "./pages/Home";
 import AddPage from "./pages/Addpage";
 import Story from "./pages/story";
 import EditPage from "./pages/EditPage";
-
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import VerifyOTP from "./pages/VerifyOTP";
-
 import ProtectedRoute from "./components/ProtectedRoute";
 
 
