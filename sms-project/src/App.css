@@ -1,4 +1,7 @@
 .counter {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
